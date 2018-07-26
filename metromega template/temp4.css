@@ -1,0 +1,672 @@
+*
+{
+    margin:0px;
+}
+
+.container
+{
+    position: absolute;
+    width: 2700px;
+    height:100%;
+    background: sandybrown;
+    background: url(../IMG/background-1.jpg);
+    /* background-attachment: fixed; */
+    background-size: cover;
+    
+}
+.header
+{
+    margin-top:30px;
+    margin-left: 130px;
+    width: 300px;
+    height:70px;
+    position: fixed;
+    /* background: steelblue; */
+}
+.welcome
+{   
+    float: left;
+    margin-left:135px;
+    margin-top:120px;
+    width:830px;
+    height:400px;
+    /* background: royalblue; */
+}
+.wone:hover
+{
+    cursor: pointer;
+}
+.wone
+{
+    float: left;
+    width:265px;
+    height:120px;
+    margin-top: 10px;
+    background:#1abc9c;
+    
+}
+#fa1{
+    transition: all 0.5s ease-out 0s;
+
+    font-size:45px;color:white; margin-left:100px; margin-top:35px;
+}
+.wone:hover > #fa1
+{  
+    transform: rotate(360deg) scale(1.5);
+}
+.whone{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+.wone:hover > .whone
+{
+    margin-left: 95px;
+}
+.wtwo
+{
+    float: left;
+    width:265px;
+    height:120px;
+    margin-top: 10px;
+    margin-left: 11px;
+    background:#9b59b6;
+}
+#fa2{
+    transition: all 0.5s ease-out 0s;
+
+    font-size:45px;color:white; margin-left:109px; margin-top:35px;
+}
+.wtwo:hover > #fa2
+{  
+    transform:  scale(0.7   );
+}
+.whtwo{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+.wtwo:hover > .whtwo
+{
+    transform: scale(1.1);
+    margin-left: 23px;
+}
+.wthree
+{
+    float: left;
+    width:265px;
+    height:120px;
+    margin-left: 11px;
+    margin-top: 10px;
+    background:forestgreen;
+}
+.wfour
+{
+    float: left;
+    width:265px;
+    height:120px;
+    margin-top: 11px;
+    background: #e67e22;
+}
+#fa4{
+    transition: all 0.5s ease-out 0s;
+
+    font-size:45px;color:white; margin-left:109px; margin-top:35px;
+}
+.wfour:hover > #fa4
+{  
+    transform:  scale(2.5) rotate(40deg);
+    opacity: 0.8;
+    margin-top: 29px;
+}
+.whfour{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+.wfour:hover > .whfour
+{
+    /* transform: scale(1.1); */
+    display: none;
+}
+.wfive
+{
+    float: left;
+    width:126px;
+    height:120px;
+    margin-left: 11px;
+    margin-top: 11px;
+    background:#2ecc71;
+}
+#fa5{
+    transition: all 0.5s ease-out 0s;
+
+    font-size:40px;color:white; margin-left:43px; margin-top:37px;
+}
+.wfive:hover > #fa5
+{  
+    transform:  scale(2) rotate(40deg);
+    opacity: 0.8;
+    margin-top: 40px;
+}
+.whfive{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+.wfive:hover > .whfive
+{
+    /* transform: scale(1.1); */
+    display: none;
+}
+.wsix
+{
+    float: left;
+    width:265px;
+    height:120px;
+    margin-left: 11px;
+    margin-top: 13px;
+    background:beige;
+    animation: slide 5s linear infinite; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@keyframes slide{
+    0%{ background: url(../IMG/template1p1.jpeg)}
+    100%{ background: url(../IMG/template3.jpg)}
+}
+
+.wseven
+{
+    float: left;
+    width:126px;
+    height:120px;
+    margin-left: 11px;
+    margin-top: 11px;
+    background:#1abc9c;
+}
+#fa7{
+    transition: all 0.5s ease-out 0s;
+
+    font-size:40px;color:white; margin-left:45px; margin-top:40px;
+}
+.wseven:hover > #fa7
+{  
+    transform:  scale(1.4);
+    opacity: 0.8;
+    margin-top: 40px;
+}
+.whseven{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+.wseven:hover > .whseven
+{
+    /* transform: scale(1.1); */
+    margin-top: 13px;
+    opacity: 0.7;
+}
+.weight
+{
+    float: left;
+    width:265px;
+    height:120px;
+    margin-top: 11px;
+    background:#3498db;
+}
+#fa8{
+    transition: all 0.35s ease-out 0s;
+
+    font-size:45px;color:white; margin-left:109px; margin-top:35px;
+}
+.weight:hover > #fa8
+{  
+    transform: rotateX(360deg);
+    opacity: 0.8;
+    margin-top: 34px;
+}
+.wheight{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+.weight:hover > .wheight
+{
+    /* transform: scale(1.1); */
+    margin-top:-25px;
+}
+.wnine
+{
+    float: left;
+    width:126px;
+    height:120px;
+    margin-top: 11px;
+    margin-left: 11px;
+    background:#3498db;
+}
+#fa9{
+    transition: all 0.5s ease-out 0s;
+
+    font-size:40px;color:white; margin-left:45px; margin-top:38px;
+}
+.wnine:hover > #fa9
+{  
+    transform: rotateX(360deg);
+    opacity: 0.8;
+    margin-top: 40px;
+}
+.whnine{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+.wnine:hover > .whnine
+{
+    /* transform: scale(1.1); */
+    display: none;
+}
+.wten
+{
+    float: left;
+    width:265px;
+    height:120px;
+    margin-left: 11px;
+    margin-top: 11px;
+    background:#34495e;
+    overflow: hidden;
+}
+#fa10{
+    transition: all 0.5s ease-out 0s;
+
+    font-size:30px;color:white; margin-left:15px; margin-top:26px;
+}
+.wten:hover > #fa10
+{  
+    transform:  scale(2.3) rotate(-40deg);
+    opacity: 0.6;
+    margin-top: 24px;
+    margin-left: 10px;
+}
+.whten{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:10px; color:white;font-size:13px; margin-left:12px;
+}
+
+.services
+{
+    float: left;
+    margin-left:50px;
+    margin-top:120px;
+    width:550px;
+    height:417px;
+    /* background: royalblue; */
+}
+
+.sone
+{
+    position: relative;
+    float: left;
+    width:265px;
+    height:118px;
+    margin-top: 10px;
+    overflow: hidden;
+    /* border-style: solid; */
+    /* border-width:1px; */
+    /* border-color:grey; */
+    background:rgba(255, 255, 255, 0.158);
+}
+.up1
+{   position: absolute;;
+    width:265px;
+    height:118px;
+    top:-118px;
+    z-index: 100;
+    background: azure;
+    transition: all 0.35s ease-in 0s;
+}
+.sone:hover > .up1
+{
+    top:0px;
+}
+#fas1{
+    transition: all 0.35s ease-out 0s;
+
+    font-size:45px;color:white; margin-left:109px; margin-top:35px;
+}
+.sone:hover > #fas1
+{  
+    transform: rotateX(360deg);
+    opacity: 0.8;
+    margin-top: 34px;
+}
+.shone{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+.sone:hover > .shone
+{
+    /* transform: scale(1.1); */
+    margin-left:95px;
+}
+.stwo
+{
+    position: relative;
+    float: left;
+    width:265px;
+    height:118px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 11px;
+    background:rgba(255, 255, 255, 0.158);
+}
+.up2
+{   position: absolute;
+    width:265px;
+    height:118px;
+    top:-118px;
+    z-index: 100;
+    background: azure;
+    transition: all 0.35s ease-in 0s;
+}
+.stwo:hover > .up2
+{
+    top:0px;
+}
+#fas2{
+    transition: all 0.35s ease-out 0s;
+
+    font-size:45px;color:white; margin-left:109px; margin-top:34px;
+}
+.stwo:hover > #fas2
+{  
+    transform: rotateX(360deg);
+    opacity: 0.8;
+    margin-top: 34px;
+}
+.shtwo{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+.stwo:hover > .shtwo
+{
+    /* transform: scale(1.1); */
+    margin-left:85px;
+    margin-top:15px;
+}
+.sthree
+{
+    position: relative;
+    float: left;
+    width:265px;
+    height:118px;
+   overflow: hidden;
+    margin-top: 15px;
+    background:rgba(255, 255, 255, 0.158);
+}
+.up3
+{   position: absolute;
+    width:265px;
+    height:118px;
+    top:-118px;
+    z-index: 100;
+    background: azure;
+    transition: all 0.35s ease-in 0s;
+}
+.sthree:hover > .up3
+{
+    top:0px;
+}
+
+#fas3{
+    transition: all 0.35s ease-out 0s;
+
+    font-size:45px;color:white; margin-left:109px; margin-top:34px;
+}
+.sthree:hover > #fas3
+{  
+    transform: rotateX(360deg);
+    opacity: 0.8;
+    margin-top: 34px;
+}
+.shthree{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+.sthree:hover > .shthree
+{
+    /* transform: scale(1.1); */
+    margin-left:95px;
+    margin-top:15px;
+}
+.sfour
+{
+    position: relative;
+    /* clear: left; */
+    width:265px;
+    height:118px;
+    overflow: hidden;
+    margin-top: 274px;
+    background:rgba(255, 255, 255, 0.158);
+}
+.up4
+{   position: absolute;
+    width:265px;
+    height:118px;
+    top:-118px;
+    z-index: 100;
+    background: azure;
+    transition: all 0.35s ease-in 0s;
+}
+.sfour:hover > .up4
+{
+    top:0px;
+}
+#fas4{
+    transition: all 0.35s ease-out 0s;
+
+    font-size:45px;color:white; margin-left:109px; margin-top:34px;
+}
+.sfour:hover > #fas4
+{  
+    transform: rotateX(360deg);
+    opacity: 0.8;
+    margin-top: 34px;
+}
+.shfour{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+.sfour:hover > .shfour
+{
+    /* transform: scale(1.1); */
+    margin-left:110px;
+    margin-top:15px;
+}
+.about
+{
+    overflow: hidden;
+    float: left;
+    margin-left:50px;
+    margin-top:120px;
+    width:670px;
+    height:417px;
+    /* background: royalblue; */
+}
+.aone
+{
+    position: relative;
+    float: left;
+    width:265px;
+    height:250px;
+    margin-top: 10px;
+    overflow: hidden;
+    background-color:beige;
+    
+}
+.aimg
+{
+   
+    position: absolute;
+    width:265px;
+    height:250px;
+    background-image: url(../IMG/profile.jpg);
+    background-size: cover;
+    transition: all 0.25s ease-in 0s;
+    
+}
+.aimg:hover
+{
+    transform: scale(1.2);
+}
+.atwo
+{
+    float: left;
+    width:385px;
+    height:385px;
+    margin-top: 10px;
+    margin-left: 11px;
+    background:black;
+    overflow-y: scroll; 
+}
+.pre
+{
+    z-index: 10;
+    color:white;
+    margin-left: -210px;
+    margin-top:30px;
+}
+.portfolio
+{   
+    float: left;
+    margin-left:50px;
+    margin-top:120px;
+    width:300px;
+    height:417px;
+    /* background: royalblue; */
+}
+.pone
+{
+    float: left;
+    width:126px;
+    height:120px;
+    margin-left: 0px;
+    margin-top: 11px;
+    overflow: hidden;
+    background:#1abc9c;
+}
+#fap1{
+    transition: all 0.5s ease-out 0s;
+
+    font-size:40px;color:white; margin-left:43px; margin-top:37px;
+}
+.pone:hover > #fap1
+{  
+    transform:  scale(2.5) rotate(40deg);
+    opacity: 0.6;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.phone{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+
+.ptwo
+{
+    float: left;
+    width:126px;
+    height:120px;
+    margin-left: 11px;
+    margin-top: 11px;
+    overflow: hidden;
+    margin-bottom:11px;
+    background:#e74c3c;
+}
+#fap2{
+    transition: all 0.5s ease-out 0s;
+
+    font-size:40px;color:white; margin-left:43px; margin-top:37px;
+}
+.ptwo:hover > #fap2
+{  
+    transform:  scale(2.5) rotate(40deg);
+    opacity: 0.6;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.phtwo{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+
+.pthree
+{
+    clear: left;
+    width:126px;
+    height:120px;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 11px;
+    background:#f1c40f;
+}
+#fap3{
+    transition: all 0.5s ease-out 0s;
+
+    font-size:40px;color:white; margin-left:43px; margin-top:37px;
+}
+.pthree:hover > #fap3
+{  
+    transform:  scale(2.5) rotate(40deg);
+    opacity: 0.6;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.phthree{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+
+.pfour
+{
+    float: left;
+    width:126px;
+    height:120px;
+    margin-left: 0px;
+    margin-top: 11px;
+    overflow: hidden;
+    background:#3498db;
+}
+#fap4{
+    transition: all 0.5s ease-out 0s;
+
+    font-size:40px;color:white; margin-left:43px; margin-top:37px;
+}
+.pfour:hover > #fap4
+{  
+    transform:  scale(2.5) rotate(40deg);
+    opacity: 0.6;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.phfour{
+    transition: all 0.5s ease-out 0s;
+    
+    margin-top:15px; color:white;font-size:13px; margin-left:12px;
+}
+
+
+
+
+
+
+
+

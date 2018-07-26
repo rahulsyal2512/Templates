@@ -1,0 +1,433 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+.one
+{   position: relative;
+    width: 100%;
+    height:60px;
+    background: #3f4551;
+}
+.left1
+{   position: absolute;
+    width: 14.5%;                                                                         
+    height:100%;
+    background-repeat: no-repeat;
+    background: url("../PAGES/logo.png");
+    margin-left: 2%;
+
+}
+.left1:hover{
+    cursor: pointer;
+}
+.left2
+
+{   position: absolute;
+    width:290px; 
+    height:40px;
+    margin-top:9px;
+    margin-left: 20%;
+    border-style: solid;
+    border-width:2px;
+    border-color: grey;
+    border-radius:6px;
+}
+.right1
+{
+    width:12%;
+    height:45px; 
+    margin-left: 82%;
+    margin-top:-38px;
+    background: #ed6a6a;
+}
+.right2
+{
+    width:35px;
+    height:35px;
+    border-style:solid;
+    border-width: 1px;
+    color: gray;
+    margin-left: 94.7%;
+    margin-top:-41px;
+}
+.two
+{
+    margin-top:30px;
+    width:100%;
+    height:30%;
+    /* background:blue; */
+}
+.box1
+
+{ 
+    position: relative;
+    margin-left:7%;
+    margin-top:14px;
+    width:300px;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    float: left;
+    margin-right: 4%;
+    height:180px;
+    background: url("../PAGES/logo (1).png");
+}
+.box2
+{
+    float: left;
+    margin-left:0.3%;
+    margin-top:43px;
+    width: 9%;
+    height:120px;;
+    background: blue;
+}
+.box2:hover
+{
+    transform: scale(1.1);
+}
+.third
+{
+    width: 15%;
+    height:10%;
+    margin-top:1%;
+    /* background: blue; */
+    margin-left:80%;
+}
+.fourth
+{  
+    width:100%;
+    height:100px;
+    background: #2b363a18;
+}
+.buy
+{   position: absolute;
+    width:16%;
+    height:55px;
+    margin-left:80%;
+    margin-top:22px;
+    background:#1ba1e2;
+}
+.fifth{
+    width:100%;
+    height:500px;
+    /* background: blue; */
+    margin-top:70px;
+}
+.sixth
+{
+    width: 100%;
+    height:30px;
+    /* background: brown; */
+    /* float:left; */
+    margin-top:10px;
+}
+.three1
+{   position: absolute;
+    float:left;
+    width:28.5%;
+    height:7px;
+    background:#c2d1d9;
+    margin-top:10px;
+    margin-left:7%;
+}
+.three2
+{  position: absolute;  
+    width:28.5%;
+    /* float: left; */
+    height:7px;
+    background:rgb(42,166,227);
+    margin-top:10px;
+    margin-left:36.45%;
+}
+.three3
+{   position: absolute;
+    float:left;
+    width:28.5%;
+    height:7px;
+    background:#c2d1d9;
+    margin-top:10px;
+    margin-left:65.65%;
+}
+.seven
+{  
+    position: relative;
+    width:100%;
+    height:580px;
+    background:url("../PAGES/chart-section.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    /* filter: blur(15px;) */
+
+}
+.pic
+{   
+    position: absolute;
+    width: 271px;
+    height: 450px;
+    /* font-size:60%;  */
+    margin-left:5%;
+     margin-top:134px;  
+     background: url("../IMG/woman.png");
+     background-repeat: no-repeat;
+}
+.text
+{   
+    position: absolute;
+    height:300px;
+    width:550px;
+    color:white;
+    margin-left: 650px;
+    margin-top: 100px;
+    /* background: navy; */
+}
+.eigth
+{  
+    height:90%;
+    width:100%;
+    /* background: navy; */
+
+}
+.pehla
+{
+    /* position: absolute; */
+    height: 40px;
+    width:100%;
+    margin-top:80px;
+    margin-left:140px;
+    font-size: 35px;
+    color:grey;
+    /* background: moccasin; */
+}
+.doosra
+{   position: absolute;
+    width:100%;
+    
+    height:50px;
+    /* background: mediumvioletred; */
+}
+ul 
+{   
+    list-style-type: none;
+}
+ul li{
+    float:left;
+    margin-left:13px;
+    color:grey;
+    margin-top:12px;
+}
+#colored
+{
+    width:40px;
+    height:20px;
+    text-align: center;
+    color:white;
+    background:rgb(17, 166, 235);
+}
+
+.teesra
+{
+    height:500px;
+    width:95%;
+
+
+}
+.nine
+{
+
+    width:100%;
+    height:520px;
+    margin-top: 50px;
+    /* background: green; */
+}
+.wall1
+{   float:left; 
+    width:280px;
+    margin-left:90px;
+    height:250px;
+    z-index: 10;;
+    background:aqua;
+    position: relative;
+    overflow: hidden;
+}
+.img1
+{   
+    height:250px;
+    width:280px;
+    z-index: 100;;
+    /* position: absolute; */
+    background: url(../IMG/box3.jpg);
+    background-size:cover;
+    position: absolute;
+}
+.up1
+{   position: absolute;
+    top:100%;
+    height:100%;
+    width:280px;
+    z-index: 1001;
+    opacity:0.8;
+    transition:all 0.24s ease-out 0s;
+    background: turquoise;
+}
+.wall1:hover > .img1 > .up1
+{   
+    cursor: pointer;
+    /* animation:moveBox 1s linear; */
+    /* background: turquoise;  */
+    top:0;
+}
+
+.wall2
+{   float:left; 
+    width:280px;
+    margin-left:2px;
+    height:250px;
+    background:aqua;
+    overflow: hidden;
+}
+.img2
+{   
+    height:250px;
+    width:280px;
+    /* position: absolute; */
+    background: url(../IMG/box5.jpg);
+    background-size:cover;
+}
+.wall2:hover > .img2 >.up2
+{
+    top:0%;
+    transition:all 0.5s ease-out 0s ;
+}
+.up2
+{
+    height: 100%;
+    position: relative;
+    top:100%;
+    opacity: 0.8;
+    background: greenyellow;
+}
+.wall3
+{   float:left; 
+    width:580px;
+    margin-left:2px;
+    height:250px;
+    background:aqua;
+    overflow: hidden;
+    
+}
+.img3
+{   
+    height:250px;
+    width:580px;
+    /* position: absolute; */
+    background: url(../IMG/box1.jpg);
+    background-size:cover;
+}
+.up3
+{
+    position: relative;
+    top:100%;
+    opacity: 0.8;
+    height:100%;
+    background: violet;
+    transition:all 0.5s ease-out 0s ;
+}
+.wall3:hover > .img3 > .up3
+{
+    top:0;
+}
+.wall4
+{   clear: left;
+     float:left; 
+    width:563px;
+    margin-top:2px;
+    margin-left:90px;
+    height:250px;
+    background:aqua;
+    overflow: hidden;
+    
+}
+.img4
+{   
+    height:250px;
+    width:580px;
+    /* position: absolute; */
+    background: url(../IMG/box2.jpg);
+    background-size:cover;
+}
+.up4
+{
+    position: relative;
+    top:100%;
+    height:100%;
+    background: rebeccapurple;
+    transition:all 0.5s ease-out 0s ;
+    opacity: 0.8;
+}
+.wall4:hover > .img4 > .up4
+{
+    top:0;
+}
+.wall5
+{   float:left; 
+    width:288px;
+    margin-left:2px;
+    height:250px;
+    margin-top:2px;
+    /* background:aqua; */
+    overflow: hidden;
+}
+.img5
+{   
+    height:250px;
+    width:580px;
+   
+    /* position: absolute; */
+    background: url(../IMG/box4.jpg);
+    background-size:cover;
+}
+.up5
+{
+    position: relative;
+    top:100%;
+    height:100%;
+    background: firebrick;
+    transition:all 0.5s ease-out 0s ;
+    opacity: 0.8;
+}
+
+.wall5:hover > .img5 > .up5
+{
+    top:0;
+}
+.wall6
+{   float:left; 
+    width:289px;
+    margin-top:2px;
+    margin-left:2px;
+    height:250px;
+    overflow: hidden;
+    background:aqua;
+}
+.img6
+{   
+    height:250px;
+    width:289px;
+    /* position: absolute; */
+    background: url(../IMG/box6.jpg);
+    background-size:cover;
+}
+.up6
+{
+    position: relative;
+    top:100%;
+    height:100%;
+    background: brown;
+    transition:all 0.5s ease-out 0s ;
+    opacity: 0.8;
+}
+.wall6:hover > .img6 > .up6
+{
+    top:0;
+}

@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper
+{
+    min-width: 300px;
+    max-width: 1400px;
+    margin:0 auto;
+}
+.white
+{
+    margin: 0 auto;
+    width: 830px;
+    height:600px;
+    background: url(../IMG/giphy.gif);
+}
+.site
+{
+    position: absolute;
+    margin-left: 286px;
+    margin-top: 100px;
+    width: 230px;
+    height: 410px;
+    background: white;
+    z-index: 10;
+}
